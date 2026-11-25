@@ -1,6 +1,6 @@
 import { join } from 'node:path';
-import { option, repeat, report, selectors, value, list } from '@cairul/plugin-kit/runner';
-import { junit } from '@cairul/plugin-kit/reports';
+import { option, repeat, report, selectors, value, list } from '@cairul/pdk/runner';
+import { junit } from '@cairul/pdk/reports';
 
 export default {
   command: ['ctest'],
